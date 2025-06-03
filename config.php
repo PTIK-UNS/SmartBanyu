@@ -24,7 +24,7 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://moodle.test';
+$CFG->wwwroot   = 'http://pkbmbanyutowo.com/lms/';
 $CFG->dataroot  = 'C:\\laragon\\www\\moodledata';
 $CFG->admin     = 'admin';
 
