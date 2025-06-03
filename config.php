@@ -3,7 +3,7 @@
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
-$CFG->dbtype    = 'mysqli';
+$CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'auth-db1682.hstgr.io';
 $CFG->dbname    = 'u703666197_lmsdb';
