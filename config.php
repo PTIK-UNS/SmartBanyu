@@ -3,14 +3,20 @@
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
-
-$CFG->dbtype    = 'mysqli';
+$CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'lms_db';
-$CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbhost    = 'auth-db1682.hstgr.io';
+$CFG->dbname    = 'u703666197_lmsdb';
+$CFG->dbuser    = 'u703666197_lmsdb';
+$CFG->dbpass    = 'F_UW@:%^98UsPc/';
 $CFG->prefix    = 'mdl_';
+// $CFG->dbtype    = 'mysqli';
+// $CFG->dblibrary = 'native';
+// $CFG->dbhost    = 'localhost';
+// $CFG->dbname    = 'lms_db';
+// $CFG->dbuser    = 'root';
+// $CFG->dbpass    = '';
+// $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => 3306,
