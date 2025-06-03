@@ -24,7 +24,7 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/lms/';
+$CFG->wwwroot   = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/lms';
 $CFG->dataroot  = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/moodledata';
 $CFG->admin     = 'admin';
 
