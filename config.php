@@ -24,8 +24,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'https://srv1682-files.hstgr.io/3591f70322edd1e2/files/public_html/lms/';
-$CFG->dataroot  = 'https://srv1682-files.hstgr.io/3591f70322edd1e2/files/public_html/moodledata';
+$CFG->wwwroot   = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/lms/';
+$CFG->dataroot  = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
