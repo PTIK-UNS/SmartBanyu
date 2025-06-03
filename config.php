@@ -3,7 +3,7 @@
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
-$CFG->dbtype    = 'mariadb';
+$CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'auth-db1682.hstgr.io';
 $CFG->dbname    = 'u703666197_lmsdb';
@@ -24,8 +24,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://pkbmbanyutowo.com/lms/';
-$CFG->dataroot  = 'C:\\laragon\\www\\moodledata';
+$CFG->wwwroot   = 'https://srv1682-files.hstgr.io/3591f70322edd1e2/files/public_html/lms/';
+$CFG->dataroot  = 'https://srv1682-files.hstgr.io/3591f70322edd1e2/files/public_html/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
