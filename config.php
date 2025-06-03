@@ -25,7 +25,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'https://pkbmbanyutowo.com/lms';
-$CFG->dataroot  = '/home/u703666197/domains/pkbmbanyutowo.com/public_html/moodledata';
+$CFG->dataroot  = '/home/u703666197/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
